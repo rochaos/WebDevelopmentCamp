@@ -1,0 +1,28 @@
+<% include ./partials/header %>
+
+<div class="container px-auto">
+    <h1 style = "text-align: center">Sign Up!</h1>   
+    <div class = "row mt-4">
+        <div class = "col-4"></div>
+        <div class = "col-4">
+            <form action = "/register" method = "POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" name = "username" placeholder = "User Name">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name = "password" placeholder="Your Password">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name = "adminCode" placeholder="Your Admin Code">
+                </div>                
+                <button type="submit" class="btn btn-primary btn-block">Register!</button>
+            </form>
+            <a href = "/campgrounds">Go Back</a>
+        </div>
+        <div class = "col-4"></div>
+    </div>
+</div>
+
+
+<% include ./partials/footer %>
+
