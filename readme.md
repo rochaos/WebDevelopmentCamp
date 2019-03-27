@@ -1,10 +1,4 @@
-# V13 version covers
+# V13 Delpyed version covers
 
-# Dynamic price
-* Add price property
-* Show price
-
-# Add Admin User Role Authentication
-* Add Admin User Role
-* Check for isAdmin
-* Show buttons and allow for isAmin = true
+# Git the project
+# Deploy to heroku
