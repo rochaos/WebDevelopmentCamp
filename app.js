@@ -16,7 +16,7 @@ var commentRoutes       = require("./routes/comment"),
 //call seedDB function to clear everything
 // seedDB();
 
-mongoose.connect('mongodb://localhost/yelpCamp_v13', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://yelpcamp:Hf3BEChxk6AH2pi@cluster0-melub.mongodb.net/yelp_camp?retryWrites=true',{ useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 
 app.use(flash());
