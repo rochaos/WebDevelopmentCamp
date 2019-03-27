@@ -14,6 +14,8 @@
 # Features to be added in
 * Add location property
 * Google map API to show the actual location
+
+
 # V13 Delpyed version covers
 
 # Deploy to heroku
@@ -36,5 +38,6 @@
     or $ heroku config:set DATABASEURL = xxxxx
 * Use Database URL
     process.env.DATABASEURL
+    Good for hiding information
 
 

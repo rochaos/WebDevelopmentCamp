@@ -16,7 +16,9 @@ var commentRoutes       = require("./routes/comment"),
 //call seedDB function to clear everything
 // seedDB();
 
-mongoose.connect(process.env.DATABASEURL,{ useNewUrlParser: true });
+//backup the url
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v13";
+mongoose.connect(url,{ useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 
 app.use(flash());
